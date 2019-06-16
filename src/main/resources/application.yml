@@ -7,3 +7,7 @@ eureka:
   client:
     serviceUrl:
             defaultZone: http://localhost:7010/eureka/
+    instance:
+        statusPagUrlPath: /info
+        healthCheckUrlPath: /health
+        homePageUrl: /home
